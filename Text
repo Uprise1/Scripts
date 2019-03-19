@@ -18,3 +18,8 @@ public class ScoreScript : MonoBehaviour {
         score.text = "Score: " + scoreValue;
 	}
 }
+
+
+// Add this to any code that increases your score
+
+ScoreScript.scoreValue  += 10;
